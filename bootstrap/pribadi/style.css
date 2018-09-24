@@ -1,0 +1,47 @@
+.div {
+	background: url('mobil.jpg') no-repeat;
+	background-size: cover;
+	font-family: Arial;
+	color: white;
+}
+.navigation ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.navigation ul li{
+	float: left;
+	width: 269px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+.navigation ul li a:hover{
+	background-color: blue;
+}
+.navigation ul li ul li{
+	display: none;
+}
+.navigation ul li:hover ul li {
+	display: block;
+}
+
+
+.center ul{
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
+	margin: auto;
+}
+
+
